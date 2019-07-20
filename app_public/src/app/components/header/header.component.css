@@ -4,6 +4,10 @@
 }
 .navbar .navbar-brand {
   color: #cfd9dc;
+  padding-left: 10vw;
+}
+.navbar .navbar-nav {
+  padding-right: 10vw;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
@@ -11,8 +15,7 @@
 }
 .navbar .navbar-nav .nav-link {
   color: #cfd9dc;
-  border-radius: .25rem;
-  margin: 0 0.25em;
+  padding: 0 25px;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
