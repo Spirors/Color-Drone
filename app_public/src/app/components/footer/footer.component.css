@@ -1,5 +1,5 @@
 .page-footer {
-  background-color: rgba(0, 0, 0, 0.88);
+  background-color: #191919;
 }
 .container-fluid {
   color: #cfd9dc;
@@ -14,4 +14,8 @@
 .footer-link {
   color: #cfd9dc;
   font-size: 18px;
+}
+.row {
+  padding-left: 10vw;
+  padding-right: 10vw;
 }

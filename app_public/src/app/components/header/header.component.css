@@ -2,6 +2,9 @@
   min-height: 100px;
   background-color: #101010;
 }
+.navbar .nav-title {
+  padding-left: 1vw;
+}
 .navbar .navbar-brand {
   color: #cfd9dc;
   padding-left: 10vw;
@@ -12,6 +15,9 @@
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
   color: #ffffff;
+}
+.navbar .navbar-nav .nav-item .nav-sub {
+  padding-left: 1vw;
 }
 .navbar .navbar-nav .nav-link {
   color: #cfd9dc;

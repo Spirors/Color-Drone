@@ -12,4 +12,7 @@ export class BodyComponent implements OnInit {
   ngOnInit() {
   }
 
+  onGenerate() {
+    alert('Generating Color');
+  }
 }
