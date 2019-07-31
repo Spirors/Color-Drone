@@ -1,26 +1,9 @@
 <div class="container">
   <div id="wrapper">
-    <div class="col-md-15 color_box">
-      <div class="color" style="background-color: #1b3576"></div>
-      <h5>1B3576</h5>
+    <div class="color_box" *ngFor="let hex of colors">
+      <div class="color" [style.backgroundColor] ="hex"></div>
+      <h5>{{ hex }}</h5>
     </div>
-    <div class="col-md-15 color_box">
-      <div class="color" style="background-color: #0B44E0"></div>
-      <h5>0B44E0</h5>
-    </div>
-    <div class="col-md-15 color_box">
-      <div class="color" style="background-color: #06BDF5"></div>
-      <h5>06BDF5</h5>
-    </div>
-    <div class="col-md-15 color_box">
-      <div class="color" style="background-color: #99CD87"></div>
-      <h5>99CD87</h5>
-    </div>
-    <div class="col-md-15 color_box">
-      <div class="color" style="background-color: #E6F262"></div>
-      <h5>E6F262</h5>
-    </div>
-
     <button (click)="onGenerate()" class="btn btn-light">Generate</button>
   </div>
 </div>
